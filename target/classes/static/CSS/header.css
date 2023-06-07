@@ -1,0 +1,44 @@
+.cabecera {
+    background-color: #fa4454;
+    padding: 20px;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enlace-logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu-navegacion {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.elemento-menu {
+    margin-right: 20px;
+}
+
+.enlace-menu {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Agregamos un margen al contenido para evitar que se superponga con el menú */
+.contenido {
+    margin-top: 70px;
+    padding: 20px;
+}

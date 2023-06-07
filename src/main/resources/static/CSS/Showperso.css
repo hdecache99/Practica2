@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: lightcoral;
+    font-size: 60px;
+}
+
+p {
+    font-family: anton;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.Personaje-info {
+     color: #34dbf4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.character-info img {
+    width: 100px; 
+    margin-right: 30px; 
+}
+
+.character-info .description {
+    text-align: left;
+}
+
+.habilidad-logo {
+    width:100px; 
+    height: 110px;
+    margin-right: 1000px; 
+    vertical-align: middle; 
+}
+.back-to-menu {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #fa4454;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-to-menu:hover {
+  background-color: #ff6b7d;
+}
